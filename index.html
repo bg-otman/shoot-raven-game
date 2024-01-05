@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/shot-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/btn.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Shot the Ravens</title>
+  </head>
+  <body>
+    <canvas class="collisionCanvas"></canvas>
+    <canvas class="canvas1"></canvas>
+
+    <div class="container play">
+      <button class="button play-btn" href="#" style="--color: #ff1867">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Start
+      </button>
+    </div>
+
+    <div class="container try-again">
+      <div class="score-container">
+        <span>Game Over</span>
+        <span>Your score is: <span class="score">0</span></span>
+      </div>
+      <button class="button try-again-btn" href="#" style="--color: #ff1867">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Try again
+      </button>
+    </div>
+
+    <script src="shoot-ravens.js" type="module"></script>
+  </body>
+</html>
